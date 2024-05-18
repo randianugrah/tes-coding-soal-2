@@ -41,7 +41,7 @@ class CustomerController extends Controller
             'no_hp'   => $request->no_hp
         ]);
 
-        return redirect()->route('home.index')->with(['success' => 'Data Berhasil Disimpan!']);
+        return redirect()->route('transaction.index')->with(['success' => 'Data Berhasil Disimpan!']);
     }
 
     /**
